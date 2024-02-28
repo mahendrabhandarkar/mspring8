@@ -23,4 +23,8 @@ public class SubCommunity implements Serializable {
     @Column(name = "sub_community_name", nullable = false)
     private String subCommunityName;
 
+    @ManyToOne
+    @JoinColumn(name="community_id", referencedColumnName = "id", insertable = false, updatable = false, nullable = true)
+    private Community community;
+
 }

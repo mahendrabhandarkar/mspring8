@@ -1,6 +1,7 @@
 package com.ks.mspring8.dto;
 
 
+import com.ks.mspring8.entity.Community;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -14,4 +15,5 @@ public class SubCommunityDTO implements Serializable {
 
     private String subCommunityName;
 
+    private Community community;
 }

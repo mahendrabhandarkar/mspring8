@@ -55,4 +55,9 @@ public class AccountSettingService {
         return accountSettingRepository.findById(id)
                 .orElseThrow(() -> new NoSuchElementException("Resource not found: " + id));
     }
+/*
+    public AccountSetting findAccountSettingById(Integer id) {
+
+    }
+ */
 }

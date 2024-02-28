@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Set;
 
 @Data
 @Entity
@@ -22,5 +23,9 @@ public class Community implements Serializable {
 
     @Column(name = "community_name", nullable = false)
     private String communityName;
-
+/*
+    // mapped with property name in entity of sub-community
+    @OneToMany(mappedBy = "communityId")
+    private Set<SubCommunity> subCommunities;
+ */
 }
