@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Create Entity with Serializable
  *  JIO Brain API Integration with Spring AI
  *  How to integrate OpenAI Into a Spring Boot Application Using Spring AI
+ *
+ *  https://baeldung.com/spring-security-registration-captcha -- Google reCaptcha V3
  */
 
 @SpringBootApplication

@@ -1,0 +1,17 @@
+package com.ks.mspring8.vo;
+
+import jakarta.validation.constraints.*;
+import lombok.Data;
+
+import java.io.Serializable;
+@Data
+public class EducationFieldVO implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    @NotNull(message = "id can not null")
+    private Integer id;
+
+    @NotNull(message = "eduField can not null")
+    private String eduField;
+
+}
