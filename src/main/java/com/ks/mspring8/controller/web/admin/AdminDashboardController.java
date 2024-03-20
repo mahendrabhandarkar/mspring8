@@ -1,6 +1,8 @@
-package com.ks.mspring8.controller.web.user;
+package com.ks.mspring8.controller.web.admin;
 
 import com.ks.mspring8.controller.BaseController;
+import com.ks.mspring8.vo.UsersVO;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
@@ -27,7 +29,7 @@ import java.util.Map;
 @RequestMapping("/web/admin/dashboard")
 @CrossOrigin
 public class AdminDashboardController extends BaseController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(UserDashboardController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(AdminDashboardController.class);
    @GetMapping("/show")
    public ModelAndView getDashboard(ModelAndView modelAndView) {
        modelAndView.addObject("name", "Mahendra");
@@ -74,4 +76,33 @@ public class AdminDashboardController extends BaseController {
        model.addAttribute("listVar", listStr);
        return "/my/list";
    }
+
+   @GetMapping("/formvalidate")
+    public String showForm(Model model) {
+       UsersVO usersVO = new UsersVO();
+       model.addAttribute("record", usersVO);
+     //  model.addAttribute("errors", bindingResult.getAllErrors());
+       return "/my/htmlform";
+   }
+
+    @PostMapping("/formvalidatesubmit")
+    public String addRecord(@Valid @ModelAttribute UsersVO usersVO, BindingResult bindingResult, Model model) {
+        if (bindingResult.hasErrors()) {
+            // Add record to model with errors (for re-displaying the form)
+            model.addAttribute("record", usersVO);
+            model.addAttribute("errors", bindingResult.getAllErrors());
+            LOGGER.info(String.valueOf(bindingResult));
+            return "/my/htmlform"; // Re-render the form with validation errors
+        }
+
+    //    recordService.save(record);
+        return "redirect:formvalidatelist"; // Redirect to list after successful addition
+    }
+
+    @GetMapping("/formvalidatelist")
+    public String getHtmlFormList(Model model) {
+        List<String> listStr = List.of("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
+        model.addAttribute("listVar", listStr);
+        return "/my/htmlformlist";
+    }
 }

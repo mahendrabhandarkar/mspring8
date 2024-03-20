@@ -1,5 +1,6 @@
 package com.ks.mspring8.vo;
 
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
@@ -62,6 +63,7 @@ public class UsersVO implements Serializable {
     private LocalDateTime modified;
 
     @NotNull(message = "firstname can not null")
+    @NotBlank(message = "Firstname should not be blank")
     private String firstname;
 
     @NotNull(message = "lastname can not null")
