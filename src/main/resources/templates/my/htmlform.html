@@ -32,8 +32,7 @@
                         <fieldset>
                             <legend>Validating a complete form</legend>
                             <p>
-                                <label for="firstname">Firstname</label>
-                                <input id="firstname" name="firstname" type="text" th:field="*{firstname}" th:errorclass="error">
+                                <div th:insert="commonWidget/textFieldAlphaNumeric :: textFieldAlphaNumeric(id='firstname', name='firstname', label='First Name', value=*{firstname}, widthPixels=100, readonly=false, alt='First Name', errorVal=*{firstname})"></div>
                             </p>
                             <p>
                                 <label for="lastname">Lastname</label>
@@ -88,6 +87,7 @@
 </div>
 <script th:inline="javascript">
   /*<![CDATA[*/
+  /*
   $.validator.setDefaults({
 		submitHandler: function() {
 			alert("submitted!");
@@ -168,6 +168,7 @@
 			topicInputs.attr("disabled", !this.checked);
 		});
 });
+*/
   /*]]>*/
 </script>
 <style th:inline="css">

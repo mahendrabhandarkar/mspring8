@@ -339,6 +339,10 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<jvmArguments>
+						-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005
+						-verbose
+					</jvmArguments>
 				</configuration>
 			</plugin>
 		</plugins>
