@@ -12,3 +12,4 @@ https://www.elastic.co/search-labs/blog/articles/chatgpt-elasticsearch-openai-me
 
 https://sql-workbench.eu/manual/compare-commands.html - WbDisplay, WbSchemaDiff and WbDataDiff - SQL Workbench commands. Check Similar commands for MySQL.<br />
 Filebeat, Metricbeat, Sleuth, Prometheus, Nagios, and Swagger. <br />
+Alert notification, Ingres Controller Configuration, MetalLB load Balancer configuration with Ingres Controller <br />
