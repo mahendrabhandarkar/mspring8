@@ -18,4 +18,6 @@ Guidewire training, 9 Box Performance Measure Matrix, Upward Communication Repor
 Graylog Centralized Log Management for Network Monitoring [https://graylog.org/] - Free and open log management <br />
 	https://github.com/protocolbuffers/protobuf -- Protocol Buffers - Google's data interchange format <br />
 	https://asana.com/uses/project-management -- asana project management community edition <br />
- Apache Spark (SparkSQL), Apache Kafka, Kibana for elasticsearch, <br />
+Apache Spark (SparkSQL), Apache Kafka, Kibana for elasticsearch, <br />
+Splunk - Log Monitoring tool - <br />
+DataDog - Resource Monitoring tool - <br />
