@@ -15,3 +15,7 @@ Filebeat, Metricbeat, Sleuth, Prometheus, Nagios, and Swagger. <br />
 Alert notification, Ingres Controller Configuration, MetalLB load Balancer configuration with Ingres Controller <br />
 https://playwright.dev/ [Playwright Automation] - <br />
 Guidewire training, 9 Box Performance Measure Matrix, Upward Communication Reporting, Bird's Eye View Management Summary Section in Reports <br />
+Graylog Centralized Log Management for Network Monitoring [https://graylog.org/] - Free and open log management <br />
+	https://github.com/protocolbuffers/protobuf -- Protocol Buffers - Google's data interchange format <br />
+	https://asana.com/uses/project-management -- asana project management community edition <br />
+ Apache Spark (SparkSQL), Apache Kafka, Kibana for elasticsearch, <br />
