@@ -19,6 +19,8 @@ Graylog Centralized Log Management for Network Monitoring [https://graylog.org/]
 	https://github.com/protocolbuffers/protobuf -- Protocol Buffers - Google's data interchange format <br />
 	https://asana.com/uses/project-management -- asana project management community edition <br />
 Apache Spark (SparkSQL), Apache Kafka, Kibana for elasticsearch, <br />
-Splunk - Log Monitoring tool - <br />
+Splunk - Log Monitoring tool - https://www.splunk.com/en_us/training/free-courses/overview.html <br />
 DataDog - Resource Monitoring tool - <br />
-https://www.portainer.io/ - Portainer - Portainer is your container management software to deploy, troubleshoot, and secure applications across cloud, datacenter, and Industrial IoT use cases. Similar to Lens.
+https://www.portainer.io/ - Portainer - Portainer is your container management software to deploy, troubleshoot, and secure applications across cloud, datacenter, and Industrial IoT use cases. Similar to Lens.<br />
+Shiny tool - Shiny is package that makes it easy to build interactive web apps straight from R & Python. <br />
+Snowflake Schema vs Star Schema in data warehouse model - <br />
