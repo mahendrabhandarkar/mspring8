@@ -24,3 +24,4 @@ DataDog - Resource Monitoring tool - <br />
 https://www.portainer.io/ - Portainer - Portainer is your container management software to deploy, troubleshoot, and secure applications across cloud, datacenter, and Industrial IoT use cases. Similar to Lens.<br />
 Shiny tool - Shiny is package that makes it easy to build interactive web apps straight from R & Python. <br />
 Snowflake Schema vs Star Schema in data warehouse model - <br />
+Transaction Management Using @Transactional, @EnableTransactionManagement Annotation [DataSourceTransactionManager bean for JDBC, JpaTransactionManager class for JPA - <br />
