@@ -26,3 +26,4 @@ Shiny tool - Shiny is package that makes it easy to build interactive web apps s
 Snowflake Schema vs Star Schema in data warehouse model - <br />
 Transaction Management Using @Transactional, @EnableTransactionManagement Annotation [DataSourceTransactionManager bean for JDBC, JpaTransactionManager class for JPA - <br />
 AG Grid Community (org.webjars.npm : ag-grid-community__core )  and Jasper Report (net.sf.jasperreports: jasperreports) -- org.webjars.npm <br />
+https://www.oracle.com/in/java/technologies/downloads/ and clicked at “OpenJDK Early Access Build” button. <br />
