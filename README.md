@@ -27,3 +27,5 @@ Snowflake Schema vs Star Schema in data warehouse model - <br />
 Transaction Management Using @Transactional, @EnableTransactionManagement Annotation [DataSourceTransactionManager bean for JDBC, JpaTransactionManager class for JPA - <br />
 AG Grid Community (org.webjars.npm : ag-grid-community__core )  and Jasper Report (net.sf.jasperreports: jasperreports) -- org.webjars.npm <br />
 https://www.oracle.com/in/java/technologies/downloads/ and clicked at “OpenJDK Early Access Build” button. <br />
+https://namastedev.com/learn/namaste-react - Good ReactJS Course <br />
+https://github.com/Ragavendira1/aidevsecopsdemo -- Redefining Modern Development: The Intersection of GenAI and DevSecOps ---- Write Code, Done Review, Run CI CD pipeline creation in github, Write testcase using Java Selenium / Playwright and execute it using CI/CD pipeline under DevSecOps.<br />
