@@ -30,3 +30,4 @@ https://www.oracle.com/in/java/technologies/downloads/ and clicked at “OpenJDK
 https://namastedev.com/learn/namaste-react - Good ReactJS Course <br />
 https://github.com/Ragavendira1/aidevsecopsdemo -- Redefining Modern Development: The Intersection of GenAI and DevSecOps ---- Write Code, Done Review, Run CI CD pipeline creation in github, Write testcase using Java Selenium / Playwright and execute it using CI/CD pipeline under DevSecOps. --- Use Github Co-pilot for generating code, review and unit testcase / automation testscript generation.<br />
 Development, Code Review, Github Project Management (Pipeline) and Test Script Creation (BDD [Cucumber] & Playwright) ---- https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/ <br />
+What’s new in GitHub Copilot and Visual Studio ---- https://build.microsoft.com/en-US/sessions/a9f1f330-a966-47f4-89f1-624b65aa85d6 <br />
