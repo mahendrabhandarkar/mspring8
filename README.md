@@ -35,7 +35,7 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Tools / Library | Short Desc | Layman description | 
 | :---: | :---: | :---: | 
 | Apache Kafka  | Producer and Consumer [Alternative tool RabbitMQ for real time processing] | An event has “what” and “when” questions? | 
-| Apache Pinot | OLAP Datastore (Alternative to Data Lake/Data Warehouse for creating metrics) | |
+| Apache Pinot | OLAP Datastore (Alternative to Data Lake/Data Warehouse for creating metrics) | Pinot data segments |
 | Amazon Kinesis | ETL tool service provided by AWS ( Deigned for Data Streams) | Mainly used for adding watermarks for data latency error factor, etc |
 | Apache Zookeeper | Centralized server that provide discovery and control the distributed server systems (Especially use in Kafka)  | Controller for Kafka topics (Jobs), he will transfer relevant information to relevant topics (jobs) over a distributed system. |
 | Apache Flink | Stream processing and batch processing Java framework use for faster results for data processing | We can use its library under spring boot framework. It’s used for Real time processing. |
@@ -43,3 +43,5 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Apache Helix | Use to defined partitions for cluster of systems | sharding data (defined multiple data storage system over the same volume for distributed storing and retrieval). You can use  Apache helix over Hadoop for sharding. |
 | Apache Storm | Compute System for distributed stream processing  | As OS/VM machine compute bytes for our Java code, similarly for computing distributed system apache storm will use in cloud. Storm will decide how machine power will be utilize to process request. |
 | Apache Samza | Real time analytical Pipeline | Similarly like Microsoft Power BI Tool. |
+| Apache Mesos | Alternative of Kubernetes | |
+| Apache DataSketches | Java Library| |
