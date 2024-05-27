@@ -45,4 +45,5 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Apache Samza | Real time analytical Pipeline | Similarly like Microsoft Power BI Tool. |
 | Apache Mesos | Alternative of Kubernetes | |
 | Apache DataSketches | Java Library| |
+
 **NOTE**: Elastic Open-Telemetry: Using open telemetry you can create your log data into standard format JSON structure for sharing to different APMs like elastic APM, etc.
