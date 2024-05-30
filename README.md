@@ -40,7 +40,7 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Amazon Kinesis | ETL tool service provided by AWS ( Deigned for Data Streams) | Mainly used for adding watermarks for data latency error factor, etc |
 | Apache Zookeeper | Centralized server that provide discovery and control the distributed server systems (Especially use in Kafka)  | Controller for Kafka topics (Jobs), he will transfer relevant information to relevant topics (jobs) over a distributed system. |
 | Apache Flink | Stream processing and batch processing Java framework use for faster results for data processing | We can use its library under spring boot framework. It’s used for Real time processing. |
-| Apache Spark | Data Filter for Hadoop | SparkQL will used for data extraction form Hadoop, PySpark Library,  | 
+| Apache Spark | Data Filter for Hadoop | SparkQL will used for data extraction form Hadoop, PySpark Library, Py4J Library | 
 | Apache Helix | Use to defined partitions for cluster of systems | sharding data (defined multiple data storage system over the same volume for distributed storing and retrieval). You can use  Apache helix over Hadoop for sharding. |
 | Apache Storm | Compute System for distributed stream processing  | As OS/VM machine compute bytes for our Java code, similarly for computing distributed system apache storm will use in cloud. Storm will decide how machine power will be utilize to process request. |
 | Apache Samza | Real time analytical Pipeline | Similarly like Microsoft Power BI Tool. |
