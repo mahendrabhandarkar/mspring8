@@ -48,3 +48,18 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Apache DataSketches | Java Library| |
 
 **NOTE**: Elastic Open-Telemetry: Using open telemetry you can create your log data into standard format JSON structure for sharing to different APMs like elastic APM, etc. Vagrant, Chef, Ansible used for creating configuration scripts. Executing Cypress testcases with bamboo using docker images.
+
+| Term / Tools | Short Desc | Layman description | 
+| :---: | :---: | :---: | 
+| Grafana|	Visualization tool | Resource Monitoring tool	|
+|Node-Exporter	|Agent |(Resource collecting agent)	|
+|Promotheous	|Matrix Creation by promsql | Will provide to Grafana for visualization	|
+|Black Box	|URL collecting agent|	|
+|Elastic	|Log Monitoring tool	|Application Log|
+|Elastic-search	|Database - Log Monitoring tool|	Application Log|
+|LogStash	|Agent (Logs collecting agent) - Log Monitoring tool	|Application Log|
+|Kibana	|Visualization tool - Log Monitoring tool|	Application Log|
+|Portainer	|Container Management tool|	|
+|ArgoCD	|GitOps tool - Used to provide contineous delivery on kubernetes|	|
+|HELM Chart | Kubernetes Package Management tool - No of API resource deploy at a time| It is used mostly for third party applications like Promotheous, Grafanna, elf, efk, etc.|
+
