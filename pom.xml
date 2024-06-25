@@ -230,6 +230,11 @@
 			<artifactId>bootstrap-session-timeout</artifactId>
 			<version>1.0.3</version>
 		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>AdminLTE</artifactId>
+			<version>3.2.0</version>
+		</dependency>
 		<!-- Google Recaptcha v3 -->
 		<dependency>
 			<groupId>org.webjars.npm</groupId>
