@@ -34,7 +34,7 @@ What’s new in GitHub Copilot and Visual Studio ---- https://vscode.dev/ --- ht
 Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in local) , Apache Pinot (Columnar database For Metrics and real-time data ingestion (not micro-batching), Upsert Stream, Tumbling Window, Hopping Window, Watermark), Amazon Kinesis , Apache Zookeeper () , Apache Flink, Hadoop , Apache Spark (Non Streaming Platform), Apache Helix, Apache Storm , Apache Samza, Pyflink (Stream processing for Non-JVM World), PyIceberg, Algorithm for Java JVM Tuning (i.e. Serial, Parallel , G1, GC, CMS, etc.)  <br />
 | Tools / Library | Short Desc | Layman description | 
 | :---: | :---: | :---: | 
-| Apache Kafka  | Producer and Consumer [Alternative tool RabbitMQ for real time processing] | An event has “what” and “when” questions? | 
+| Apache Kafka  | Producer and Consumer [Alternative tool RabbitMQ for real time processing] | An event has “what” and “when” questions? - KafkaHQ [aka AKHQ - Dashboard for monitoring; ksqldb - used sql for streams; kafka connect - Kafka Connect is a tool for scalably and reliably streaming data between Apache Kafka® and other data systems. | 
 | Apache PIG | | To process large Datasets via Javascript either from Hadoop (Scala), Kafka | 
 | Apache Pinot | OLAP Datastore (Alternative to Data Lake/Data Warehouse for creating metrics) | Pinot data segments, for data process (either from SparkQL / kafka) |
 | Amazon Kinesis | ETL tool service provided by AWS ( Deigned for Data Streams) | Mainly used for adding watermarks for data latency error factor, etc |
