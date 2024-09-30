@@ -64,3 +64,9 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 |ArgoCD	|GitOps tool - Used to provide contineous delivery on kubernetes|	|
 |HELM Chart | Kubernetes Package Management tool - No of API resource deploy at a time| It is used mostly for third party applications like Promotheous, Grafanna, elf, efk, etc.|
 
+| Stack |Tools 1| Tools 2| Tool3 | Layman description | 
+| :---: | :---: | :---: | :---: | :---: | 
+|  |Identical | Identical| Will change | Based on Need |
+| 1 |Grafanna | Prothemous| Exporters [like Slack, etc] | Used for Analysis, Log, etc |
+| 2 |Elastic | Kibana | Logstash / Fluentd / etc | Will change according to need | 
+
