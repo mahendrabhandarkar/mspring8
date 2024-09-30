@@ -67,6 +67,6 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Stack |Tools 1| Tools 2| Tool3 | Layman description | 
 | :---: | :---: | :---: | :---: | :---: | 
 |  |Identical | Identical| Will change | Based on Need |
-| 1 |Grafanna | Prothemous| Exporters [like Slack, etc] | Used for Analysis, Log, etc |
+| 1 |Grafanna | Prothemous| Prothemeous Exporters list [like Slack, etc] - https://prometheus.io/docs/instrumenting/exporters/ | Used for Analysis, Log, etc |
 | 2 |Elastic | Kibana | Logstash / Fluentd / etc | Will change according to need | 
 
