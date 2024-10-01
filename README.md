@@ -70,6 +70,10 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | 1 |Grafanna | Prothemous| Prothemeous Exporters list [like BlackBox [For URL Matrix], Node Exporter [for system matrix], Slack, etc] - https://prometheus.io/docs/instrumenting/exporters/ | Used for Analysis, Log, etc |
 | 2 |Elastic | Kibana | Logstash / Fluentd / etc | Will change according to need | 
 
+Exporter need to install on the server [like postgres exporter need to install in Postgresql server, etc]. And access that server URLs to fetch metrics details.
+And then prothemoeous will consume this installed exporter details metrics url.
+Then grafana will show that in form of metrics
+
 NOTE: Envoy - Envoy-master - As a physical load balancer; Envoy-client: For Load distribution among kubernetes client. Kubernetes Master share information to envoy to share load among kubernetes client as per consumption.
 MetaLB -- Virtual Load Balancer (Used mainly for small load microservices )
 Kubernetes has there own load balancer too which is called service.
