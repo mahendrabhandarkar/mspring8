@@ -67,7 +67,7 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 | Stack |Tools 1| Tools 2| Tool3 | Layman description | 
 | :---: | :---: | :---: | :---: | :---: | 
 |  |Identical | Identical| Will change | Based on Need |
-| 1 |Grafanna | Prothemous| Prothemeous Exporters list [like BlackBox [For URL Matrix], Node Exporter [for system matrix], Slack, etc] - https://prometheus.io/docs/instrumenting/exporters/ | Used for Analysis, Log, etc |
+| 1 |Grafanna [ Extend by using Plugins ]| Prothemous| Prothemeous Exporters list [like BlackBox [For URL Matrix], Node Exporter [for system matrix], Slack, etc] - https://prometheus.io/docs/instrumenting/exporters/ | Used for Analysis, Log, etc |
 | 2 |Elastic | Kibana | Logstash / Fluentd / etc | Will change according to need | 
 
 Exporter need to install on the server [like postgres exporter need to install in Postgresql server, etc]. And access that server URLs to fetch metrics details.
