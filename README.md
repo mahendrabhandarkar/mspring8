@@ -62,7 +62,7 @@ Apache Kafka (For Events; Download "kafka-console-consumer.sh" script to run in 
 |Kibana	|Visualization tool - Log Monitoring tool|	Application Log|
 |Portainer	|Container Management tool|	|
 |ArgoCD	|GitOps tool - Used to provide contineous delivery on kubernetes|	|
-|HELM Chart | Kubernetes Package Management tool - No of API resource deploy at a time| It is used mostly for third party applications like Promotheous, Grafanna, elf, efk, etc.|
+|HELM Chart | Kubernetes Package Management tool - No of API resource deploy at a time| It is used mostly for third party applications like Promotheous, Grafanna, elf, efk, etc. HELM is package manager and helm charts [a collection of manifest [i.e. yaml] file|
 
 | Stack |Tools 1| Tools 2| Tool3 | Layman description | 
 | :---: | :---: | :---: | :---: | :---: | 
